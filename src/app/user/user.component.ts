@@ -8,6 +8,7 @@ import { GamesComponent } from '../games/games.component';
   templateUrl: './user.component.html',
   styleUrl: './user.component.css'
 })
+
 export class UserComponent {
   username = "Pau";
   isLoggedIn = false; // <-- Funciona como un state

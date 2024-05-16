@@ -6,7 +6,7 @@ import { GamesComponent } from './games/games.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, UserComponent, GamesComponent],
+  imports: [RouterOutlet, UserComponent, GamesComponent ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
